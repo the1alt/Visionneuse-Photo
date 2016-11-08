@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="app/fancybox/source/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 id="titre" class="text-center">Les puppys</h1>
+    </div>
+
+    <div class="row">
+      <h2>Filtres</h2>
+      <div class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">Show all</button>
+        <button class="button" data-filter=".white">Blanc</button>
+        <button class="button" data-filter=".brown">Marron</button>
+        <button class="button" data-filter=".longHear">Longues oreilles</button>
+        <button class="button" data-filter=".black">Noir</button>
+        <button class="button" data-filter=".wooky">Ewok</button>
+        <button class="button" data-filter=".wiry">Dru</button>
+        <button class="button" data-filter=":not(.wooky)">Pas les Ewok</button>
+      </div>
+    </div>
+    <div class="row">
+      <input type="text" id="find"/>
+    </div>
+    <div class="row">
+      <div class="grid">
+        <div class="grid-sizer white"></div>
+        <div class="grid-item">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg" alt="Puppy 1"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown longHear">
+          <a class="fancybox" rel="group" href="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png">
+            <img class = " center-block" src="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png" alt="Puppy 2"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown wiry ">
+          <a class="fancybox" rel="group" href="http://dailypicksandflicks.com/wp-content/uploads/2011/03/Boo.jpg">
+            <img class = " center-block" src="http://dailypicksandflicks.com/wp-content/uploads/2011/03/Boo.jpg" alt="Puppy 3"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown wooky">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg" alt="Puppy 4"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white wooky">
+          <a class="fancybox" rel="group" href="http://img15.deviantart.net/e175/i/2014/124/f/d/barefoot_ewok_by_renniestarks-d7h6227.jpg">
+            <img class = " center-block" src="http://img15.deviantart.net/e175/i/2014/124/f/d/barefoot_ewok_by_renniestarks-d7h6227.jpg" alt="Girl 5"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item black white longHear ">
+          <a class="fancybox" rel="group" href="http://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg">
+            <img class = " center-block" src="http://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg" alt="Puppy 6"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white longHear">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg" alt="Puppy 7"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown longHear">
+          <a class="fancybox" rel="group" href="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png">
+            <img class = " center-block" src="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png" alt="Puppy 8"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown wiry">
+          <a class="fancybox" rel="group" href="http://dailypicksandflicks.com/wp-content/uploads/2011/03/Boo.jpg">
+            <img class = " center-block" src="http://dailypicksandflicks.com/wp-content/uploads/2011/03/Boo.jpg" alt="Puppy 9"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown wooky">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-9_zps3bab7732.jpg" alt="Puppy 10"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white wooky">
+          <a class="fancybox" rel="group" href="http://img06.deviantart.net/fe17/i/2013/267/c/2/ewok_pin_up_by_darthdifa-d6nq3h4.jpg">
+            <img class = " center-block" src="http://img06.deviantart.net/fe17/i/2013/267/c/2/ewok_pin_up_by_darthdifa-d6nq3h4.jpg" alt="Girl 11"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item black white longHear">
+          <a class="fancybox" rel="group" href="http://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg">
+            <img class = " center-block" src="http://s3.amazonaws.com/codecademy-blog/assets/puppy-2_zps1539e6b2.jpg" alt="Puppy 12"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg" alt="Puppy 13"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item brown longHear">
+          <a class="fancybox" rel="group" href="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png">
+            <img class = " center-block" src="http://s3.amazonaws.com/codecademy-blog/assets/puppy-3_zps4692eafa.png" alt="Puppy 14"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item wooky white">
+          <a class="fancybox" rel="group" href="http://img02.deviantart.net/abf4/i/2015/114/9/b/celebration_vi__ewok_cosplay_by_figmentsmedia-d5cfx9p.jpg">
+            <img class = " center-block" src="http://img02.deviantart.net/abf4/i/2015/114/9/b/celebration_vi__ewok_cosplay_by_figmentsmedia-d5cfx9p.jpg" alt="Puppy 14"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item wooky longHear white">
+          <a class="fancybox" rel="group" href="http://pre02.deviantart.net/47ac/th/pre/i/2012/265/1/9/the_ewok_ation_was_a_success_by_frenchraph-d5fidgc.jpg">
+            <img class = " center-block" src="http://pre02.deviantart.net/47ac/th/pre/i/2012/265/1/9/the_ewok_ation_was_a_success_by_frenchraph-d5fidgc.jpg" alt="Puppy 14"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg" alt="Puppy 13"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+        <div class="grid-item white">
+          <a class="fancybox" rel="group" href="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg">
+            <img class = " center-block" src="https://s3.amazonaws.com/codecademy-blog/assets/puppy-4_zps63ff5aa8.jpg" alt="Puppy 13"/>
+            <span class="caption full-caption">
+              <h4 style="margin:0; text-align:center">Full Caption</h4>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="app/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script src="app/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="app/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+  <script src="app/fancybox/source/jquery.fancybox.pack.js?v=2.1.5" charset="utf-8"></script>
+  <script src="app/masonry/dist/masonry.pkgd.min.js" charset="utf-8"></script>
+  <script src="app/isotope/dist/isotope.pkgd.min.js" charset="utf-8"></script>
+  <script src="js/exo3.js" charset="utf-8"></script>
+</body>
+</html>

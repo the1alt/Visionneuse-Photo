@@ -1,0 +1,27 @@
+{
+  "name": "Jquery exo 3",
+  "version": "0.0.0",
+  "authors": [
+    "the1alt <thibaut.faurel@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "app/"
+  ],
+  "description": "Visionneuse de photos",
+  "keywords": [
+    "visionneuse",
+    "photos"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "fancybox": "~2.1.5",
+    "masonry": "~4.1.1",
+    "isotope": "~3.0.1"
+  }
+}
